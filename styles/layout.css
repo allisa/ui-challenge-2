@@ -1,0 +1,41 @@
+input[type=checkbox], input[type=radio] {
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+   appearance:         none;
+}
+
+.unchecked {
+	background: url('../imgs/form-elements-sprite.png') no-repeat -158px -239px;
+	width: 161px;
+	height: 160px;
+}
+
+.checked {
+	background: url('../imgs/form-elements-sprite.png') no-repeat -381px -239px;
+	width: 161px;
+	height: 160px;
+}
+
+.inactive {
+	background: url('../imgs/form-elements-sprite.png') no-repeat -582px -242px;
+	width: 167px;
+	height: 166px;
+}
+
+.active {
+	background: url('../imgs/form-elements-sprite.png') no-repeat -812px -242px;
+	width: 168px;
+	height: 166px;
+}
+
+.up-arrow {
+	background: url('../imgs/form-elements-sprite.png') no-repeat -1035px -280px;
+	width: 77px;
+	height: 77px;
+}
+
+.down-arrow {
+	background: url('../imgs/form-elements-sprite.png') no-repeat -1143px -280px;
+	width: 76px;
+	height: 77px;
+}
